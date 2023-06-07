@@ -20,6 +20,8 @@ public class Main {
         String user1 = "Pinni";
         String user2 = "Oscar";
 
+        // 이름을 덧붙히면 중복될 일이 없지 않을까?
+
         while (uniqueValues.size() < numValues) {
             // 16비트 랜덤 정수 생성
             int randomInt = new Random().nextInt(65536);
